@@ -1,0 +1,21 @@
+body{
+	font-family: Roboto Condensed;
+	font-size: 20px;
+	line-height: 22px;
+}
+#header{
+	background: #2bbc9b; height: 86px; 
+}
+#main-menu li{
+	float: left;
+}
+#main-menu li a{color: #fff; padding:32px 28px; display: block;}
+
+#main-menu li.active a,#main-menu li a:hover{
+	background-color: #24a085;
+	transition: all 0.25s;
+}
+#logo{ 
+	padding: 10px 0px;
+ }
+

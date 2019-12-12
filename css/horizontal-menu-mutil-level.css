@@ -1,0 +1,54 @@
+
+body{
+	font-family: Roboto Condensed;
+	font-size: 20px;
+	line-height: 22px;
+}
+#header{
+	background: #2bbc9b; height: 86px; 
+}
+#main-menu li{float: left; position: relative;}
+#main-menu li a{color: #fff; padding:32px 28px; display: block;
+}
+
+#main-menu>li.active>a,#main-menu>li:hover>a{
+	background-color: #24a085;
+	transition: all 0.25s;
+}
+#logo{ 
+	padding: 10px 0px;
+ }
+#main-menu .sub-menu li{
+	float: none;
+}
+#main-menu .sub-menu{
+	display: none;
+	position: absolute;
+	width: 240px;
+	background:#2bbc9b;
+	top:0%;
+	left:100%;
+}
+#main-menu>li>.sub-menu{
+	top: 86px;
+	left: 0px;
+}
+
+#main-menu .sub-menu li a{
+	font-size: 18px;
+	padding: 16px 28px 17px;
+	border-top: 1px solid #fff;
+}
+#main-menu .sub-menu li a:after{
+	content:"\f105";
+	font-family: Font Awesome 5 Free;
+	position: absolute;
+	right: 15px;
+	font-size: 16px;
+}
+#main-menu li:hover>ul.sub-menu{
+	display: block;
+}
+#main-menu .sub-menu li:hover>a{
+	background:#24a085;
+}
